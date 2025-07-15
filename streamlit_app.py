@@ -45,7 +45,7 @@ prinsip : pemanasan COONa3 akan menghasilkan metana yang akan bereaksi dengan la
 hasil uji : dari jingga ke memudar
 
 
-(CH4 + I2 → CI4 + 4HI)
+(CH4 + I2 = CI4 + 4HI)
 """)
 pengamatan : positif hanya dengan larutan iodhubl
 menggunakan reaksi substitusi

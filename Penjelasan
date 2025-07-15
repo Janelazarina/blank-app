@@ -6,7 +6,7 @@ import streamlit as st
 st.title("Materi Praktik Kimia Organik ")
 
 # Subjudul
-st.header("Pembuatan")
+st.header("Rangkuman")
 
 # Teks materi
 st.write("""
@@ -15,8 +15,15 @@ prinsip : pemanasan COONa3 akan menghasilkan metana yang akan bereaksi dengan la
 hasil uji : dari jingga ke memudar
 
 
-st.latex (CH4 + I2 + cahaya → C₆H₁₂O₆ + 6O₂
+st.latex (CH4 + I2 → CI4 + 4HI)
 """)
+pengamatan : positif hanya dengan larutan iodhubl
+menggunakan reaksi substitusi
+
+2. Heksana 
+prinsip : heksana dapat bereaksi dengan larutan iodhubl yang membentuk 1 iodheksana yang ditandai dengan memudarnya larutan iodhubl 
+hasil uji : dari jingga ke memudar
+Reaksi :
 
 
 # Penjelasan tambahan

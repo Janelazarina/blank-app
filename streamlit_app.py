@@ -20,6 +20,18 @@ elif menu == "Latihan Soal":
 
 elif menu == "Catatan Kuliah":
     st.title("📒 Catatan Kuliah")
+    # Judul Aplikasi
+st.title("Materi Praktik Kimia Organik ")
+
+# Subjudul
+st.header("Pembuatan")
+
+# Teks materi
+st.write("""
+1. Metana : 1 sendok sodalime dan 1 sendok st.latex (COONa3)
+prinsip : pemanasan COONa3 akan menghasilkan metana yang akan bereaksi dengan larutan iodhubl membentuk tetra iodin metana,yang ditandai dengan memudarnya larutan iodhubl.
+hasil uji : dari jingga ke memudar
+
 
     if "show_notes" not in st.session_state:
         st.session_state.show_notes = False

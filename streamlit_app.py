@@ -40,12 +40,12 @@ st.header("Rangkuman")
 
 # Teks materi
 st.write("""
-1. Metana : 1 sendok sodalime dan 1 sendok st.latex (COONa3)
+1. Metana : 1 sendok sodalime dan 1 sendok (COONa3)
 prinsip : pemanasan COONa3 akan menghasilkan metana yang akan bereaksi dengan larutan iodhubl membentuk tetra iodin metana,yang ditandai dengan memudarnya larutan iodhubl.
 hasil uji : dari jingga ke memudar
 
 
-st.latex (CH4 + I2 → CI4 + 4HI)
+(CH4 + I2 → CI4 + 4HI)
 """)
 pengamatan : positif hanya dengan larutan iodhubl
 menggunakan reaksi substitusi

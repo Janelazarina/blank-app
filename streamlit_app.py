@@ -28,6 +28,46 @@ st.header("Pembuatan")
 
 # Teks materi
 st.write("""
+# file: app.py
+
+import streamlit as st
+
+# Judul Aplikasi
+st.title("Materi Praktik Kimia Organik ")
+
+# Subjudul
+st.header("Rangkuman")
+
+# Teks materi
+st.write("""
+1. Metana : 1 sendok sodalime dan 1 sendok st.latex (COONa3)
+prinsip : pemanasan COONa3 akan menghasilkan metana yang akan bereaksi dengan larutan iodhubl membentuk tetra iodin metana,yang ditandai dengan memudarnya larutan iodhubl.
+hasil uji : dari jingga ke memudar
+
+
+st.latex (CH4 + I2 → CI4 + 4HI)
+""")
+pengamatan : positif hanya dengan larutan iodhubl
+menggunakan reaksi substitusi
+
+2. Heksana 
+prinsip : heksana dapat bereaksi dengan larutan iodhubl yang membentuk 1 iodheksana yang ditandai dengan memudarnya larutan iodhubl 
+hasil uji : dari jingga ke memudar
+Reaksi :
+
+
+# Penjelasan tambahan
+st.subheader("Faktor yang Mempengaruhi Fotosintesis")
+st.markdown("""
+1. **Intensitas cahaya**
+2. **Konsentrasi karbon dioksida**
+3. **Suhu**
+4. **Ketersediaan air**
+""")
+
+# Tambahan interaktif
+if st.checkbox("Tampilkan kesimpulan"):
+    st.success("Fotosintesis sangat penting karena menghasilkan oksigen dan menyediakan energi bagi makhluk hidup.")
 
 
 
